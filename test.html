@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <base href="http://192.168.1.15/#Login-AHAWS">
+
+  <title>Arduino Home Automation WebServer</title>
+  <meta charset="utf-8" http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  <meta name="viewport" content=
+  "width=device-width, initial-scale=1.0,maximum-scale=10, user-scalable=yes">
+  <link rel="stylesheet" type="text/css" href=
+  "http://code.jquery.com/mobile/1.4.3/jquery.mobile-1.4.3.min.css">
+  <link rel="stylesheet" type="text/css" href=
+  "http://fonts.googleapis.com/css?family=Playball|Open+Sans+Condensed:300,700">
+  <link rel="stylesheet" type="text/css" href=
+  "http://fonts.googleapis.com/css?family=Dancing+Script:400,700|Alex+Brush:400|Calligraffitti:400">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Trocchi">
+  <link rel="stylesheet" type="text/css" href=
+  "https://googledrive.com/host/0B8JVRJeS4npXXzJfc3VYUER5S2c">
+  <link rel="stylesheet" type="text/css" href=
+  "https://googledrive.com/host/0B8JVRJeS4npXWktqUHRsOXBIMFk">
+  <link rel="stylesheet" type="text/css" href=
+  "https://googledrive.com/host/0B8JVRJeS4npXNVVFYkVLOHMzbFU">
+  <link rel="stylesheet" type="text/css" href=
+  "https://googledrive.com/host/0B8JVRJeS4npXMGJOU2JVNFBDQWM">
+  <link rel="stylesheet" type="text/css" href=
+  "http://netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css">
+  <link rel="shortcut icon" href="https://googledrive.com/host/0B8JVRJeS4npXWmZMXzVTczdjNUU">
+  <script src="http://code.jquery.com/jquery-1.11.1.min.js">
+</script>
+  <script src="http://code.jquery.com/mobile/1.4.3/jquery.mobile-1.4.3.min.js">
+</script>
+  <script src="http://jqueryvalidation.org/files/dist/jquery.validate.js">
+</script>
+  <script src="https://googledrive.com/host/0B8JVRJeS4npXUkxFcklkUGVOQmM">
+</script>
+  <script src="https://googledrive.com/host/0B8JVRJeS4npXcTAtU1RYb2FDVUE">
+</script>
+  <script src="https://googledrive.com/host/0B8JVRJeS4npXaVhUeFVYNkN3elk">
+</script>
+  <script src="https://googledrive.com/host/0B8JVRJeS4npXZWtmUGJMTFp1Zlk">
+</script>
+  <style type="text/css">
+div.c4 {padding-bottom: 98px; min-height: 886px;}
+  div.c3 {display: block;}
+  div.c2 {overflow:hidden;}
+  div.c1 {display: none;}
+  </style>
+</head>
+
+<body class="ui-mobile-viewport ui-overlay-a">
+  <div id="Welcome-AHAWS" data-role="page" data-url="Welcome-AHAWS" tabindex="0" class=
+  "ui-page ui-page-theme-b wrapper ui-page-theme-a ui-page-footer-fixed c4">
+    <div class="c1" id="welcome">
+      <br>
+
+      <h1>Welcome to Arduino Home Automation WebServer<br>
+      Digital Clock with jQuery<small>Arduino is loading...</small></h1>
+    </div>
+
+    <div class="c3" id="showup">
+      <br>
+
+      <h1 class="top">Arduino Home Automation WebServer<br>
+      Digital Clock with jQuery<small>Made by Daniel Sorace | <a data-transition="pop" href=
+      "#Login-AHAWS" class="glow ui-link">View Lighting</a></small></h1>
+
+      <div class="clock ui-footer ui-bar-inherit ui-footer-fixed slideup c2" data-role="footer"
+      data-position="fixed">
+        <div id="Date">
+          Tue Sep 02 2014
+        </div>
+
+        <div id="time">
+          <ul class="hz_ul">
+            <li class="hz" id="hours">09</li>
+
+            <li class="hz" id="point">:</li>
+
+            <li class="hz" id="min">28</li>
+
+            <li class="hz" id="point">:</li>
+
+            <li class="hz" id="sec">55</li>
+
+            <li class="hz" id="AM_PM">PM</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="Login-AHAWS" data-role="page" data-url="Login-AHAWS" tabindex="0" class=
+  "ui-page ui-page-theme-b ui-page-theme-a">
+    <div class="ui-header ui-bar-b" data-role="header" data-theme="b">
+      <a href="#right-panel" data-iconpos="notext" class=
+      "ui-link ui-btn-right ui-btn ui-icon-bars ui-btn-icon-notext ui-shadow ui-corner-all"
+      data-role="button">Menu</a>
+
+      <h5 class="ui-title">Arduino Home Automation WebServer</h5><a href="#Welcome-AHAWS"
+      data-iconpos="notext" data-rel="external" data-ajax="false" class=
+      "ui-link ui-btn-left ui-btn ui-icon-clock ui-btn-icon-notext ui-shadow ui-corner-all"
+      data-role="button">welcome</a>
+    </div>
+
+    <div data-role="main" class="ui-content">
+      <style type="text/css">
+body{background-image: url('https://googledrive.com/host/0B8JVRJeS4npXWVBFZTJmOFVIYUE')!important;background-position:center center!important;background-attachment:fixed!important;background-repeat: no-repeat!important;background-size: 100% 100%;!important;}.ui-page{ background: transparent!important;background:#202020;}#blur-filter{background-size:cover;-webkit-filter: blur(3px);-moz-filter: blur(3px);-o-filter: blur(3px); -ms-filter: blur(3px);filter: blur(3px);}.ui-overlay-a, .ui-page-theme-a, .ui-page-theme-a .ui-panel-wrapper  {background-color: #202020}
+      </style><style type="text/css">
+.aw-widget-current-inner{width: 550px; height: 30px;}!important;
+      </style>
+
+      <h1>Welcome to Arduino Home Automation WebServer</h1>
+      <hr width="50%">
+      <br>
+      <br>
+      <br>
+      <br>
+
+      <form novalidate="novalidate" id="form1" action="/" method="POST" data-transition="flow"
+      class=" login ui-body ui-body-b ui-corner-all ui-icon-lock" name="form1">
+        <fieldset>
+          <div class="ui-field-contain">
+            <label for="username">Enter your username:</label>
+
+            <div class="ui-input-text ui-body-inherit ui-corner-all ui-mini ui-shadow-inset">
+              <input data-mini="true" name="username" id="username" placeholder=
+              "Enter Your Username" value="Kramer" type="text">
+            </div>
+          </div>
+
+          <div class="ui-field-contain">
+            <label for="password">Enter your password:</label>
+
+            <div class=
+            "ui-input-text ui-body-inherit ui-corner-all ui-mini ui-shadow-inset ui-input-has-clear">
+            <input data-mini="true" data-history="false" autocomplete="off" name="password"
+            data-clear-btn="true" id="password" placeholder="Enter Your Password" value="2345t"
+            type="password"><a href="#" class=
+            "ui-input-clear ui-btn ui-icon-delete ui-btn-icon-notext ui-corner-all" title=
+            "Clear text">Clear text</a>
+            </div>
+          </div>
+
+          <div class="ui-checkbox ui-mini">
+            <label class="ui-btn ui-corner-all ui-btn-inherit ui-btn-icon-left ui-checkbox-on">Keep
+            me logged in</label><input data-inline="true" name="ck" id="log" value="1" data-mini=
+            "true" checked="checked" type="checkbox">
+          </div><button id="login" class=
+          "ui-btn ui-icon-lock ui-btn-icon-left ui-shadow ui-corner-all ui-mini">Login</button>
+        </fieldset>
+      </form><br>
+      <br>
+      <br>
+      <br>
+
+      <div class=
+      "ui-panel ui-panel-position-right ui-panel-display-overlay ui-body-inherit ui-panel-fixed ui-panel-animate ui-panel-closed ui-panel-inner"
+      data-role="panel" data-icon="bars" id="right-panel" data-display="overlay" data-position=
+      "right" data-position-fixed="true">
+        <ul class="ui-listview" data-role="listview" data-icon="false">
+          <li class="ui-first-child" data-icon="delete">
+            <a class="ui-btn ui-btn-icon-right ui-icon-delete" href="#" data-rel="close">Close</a>
+          </li>
+
+          <li class="ui-li-divider ui-bar-inherit" data-role="list-divider">Social Networking</li>
+
+          <li>
+            <a href="?logout" onclick="document.location.href ='http://twitter.com'" class=
+            "icon-button twitter ui-mini ui-btn">Twitter</a>
+          </li>
+
+          <li>
+            <a href="?logout" onclick="document.location.href ='http://facebook.com'" class=
+            "icon-button facebook ui-mini ui-btn">acebook</a>
+          </li>
+
+          <li>
+            <a href="?logout" onclick="document.location.href ='http://google.com'" class=
+            "icon-button google-plus ui-mini ui-btn">oogle</a>
+          </li>
+
+          <li>
+            <a href="?logout" onclick="document.location.href ='http://gmail.com'" class=
+            "icon-button google-plus ui-mini ui-btn">Gmail</a>
+          </li>
+
+          <li class="ui-li-divider ui-bar-inherit" data-role="list-divider">Login Toubleshoot</li>
+
+          <li class="ui-li-static ui-body-inherit">
+            <p>Window is Personal Computer.</p>
+
+            <p>iOS is MAC as iPhone and iPad.</p>
+          </li>
+
+          <li class="ui-li-static ui-body-inherit">
+            <p>Current System is WINDOWS.</p>
+          </li>
+
+          <li>
+            <a class=
+            "ui-btn ui-btn ui-mini ui-icon-alert ui-btn-inline ui-corner-all ui-btn-icon-left"
+            href="?changeMethod" rel="external" data-ajax="false">Toggle Operating System</a>
+          </li>
+
+          <li class="ui-li-divider ui-bar-inherit" data-role="list-divider">STATUS</li>
+
+          <li class="ui-li-static ui-body-inherit">
+            <p>DEVICE STATUS:</p>
+
+            <p>OK</p>
+          </li>
+
+          <li class="ui-li-static ui-body-inherit">
+            <p>NOTIFICATION EMAIL STATUS:</p>
+
+            <p>DISABLE</p>
+          </li>
+
+          <li class="ui-li-static ui-body-inherit">
+            <p>ALARM TIMER STATUS:</p>
+
+            <p>DISABLE</p>
+          </li>
+
+          <li class="ui-li-divider ui-bar-inherit" data-role="list-divider">RAM SIZE</li>
+
+          <li class="ui-li-static ui-body-inherit ui-last-child">
+            <p>FREE RAM SIZE:</p>
+
+            <p>1080</p>
+          </li>
+        </ul>
+      </div><!-- /panel -->
+
+      <p>Forgot your password?<a href="#recoveryPW" data-transition="flow" data-overlay-theme="a"
+      class=
+      "my-tooltip-btn ui-btn ui-alt-icon ui-nodisc-icon ui-btn-inline ui-icon-info ui-btn-icon-notext"
+      title="Forgot Your Password?">info</a></p>
+    </div>
+  </div>
+
+  <div data-url="recoveryPW" data-role="page" data-overlay-theme="b" id="recoveryPW" class=
+  "ui-content ui-page-theme-b" data-dialog="true">
+    <div data-role="header" data-theme="b">
+      <h3>Recovery Password</h3>
+    </div>
+
+    <div data-role="main" class="ui-content">
+      <p>Get recovery a lost or forgotten password in email</p><a href="#Login-AHAWS"
+      data-transition="flow" class="ui-btn ui-corner-all ui-mini ui-shadow ui-btn-inline">Go to
+      Login</a><a href="?RecoveryPass" class=
+      "ui-btn ui-corner-all ui-shadow ui-mini ui-btn-icon-left ui-icon-mail">Recover my
+      Password</a>
+    </div>
+  </div>
+
+  <div class="ui-loader ui-corner-all ui-body-a ui-loader-default">
+    <h1>loading</h1>
+  </div>
+
+  <div class="ui-panel-dismiss"></div>
+</body>
+</html>

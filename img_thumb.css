@@ -1,0 +1,28 @@
+
+.ui-listview li.ui-li-has-thumb .ui-li-thumb {
+	 height: 100%;
+	 max-width: 100%;
+	max-height: none;
+}
+
+img{
+	max-width: 17% !important;
+	width: 17% !important;
+	
+}
+.img_p{
+    left: 118px;
+    position: inherit !important;
+    margin : 10px;
+}
+.ui-li-has-thumb .ui-btn-inner a.ui-link-inherit, .ui-li-static.ui-li-has-thumb{
+	 min-height: 70px !important;
+}
+
+.ui-li-has-arrow .ui-btn-inner a.ui-link-inherit, .ui-li-static.ui-li-has-arrow{
+	padding-right: 10% !important;
+}
+
+.ui-li-has-thumb .ui-btn-inner a.ui-link-inherit, .ui-li-static.ui-li-has-thumb{
+	padding-left: 30% !important;
+}

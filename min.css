@@ -1,0 +1,262 @@
+a {
+    text-decoration: none;
+    color: #00c6ff;
+}
+h1, .ui-header {
+    text-shadow: 0px 0px 9px #2AD;
+    margin: 0;
+}
+.top {
+    padding-top: 200px;
+}
+hr {
+    border: 0;
+    background-image: -webkit-linear-gradient(left, #2AD, #FFF, #2AD);
+    background-image: -moz-linear-gradient(left, #2AD, #FFF, #2AD);
+    background-image: -ms-linear-gradient(left, #2AD, #FFF, #2AD);
+    background-image: -o-linear-gradient(left, #2AD, #FFF, #2AD);
+}
+h1 small {
+    font: 0.4em normal Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    line-height: 5em;
+    display: block;
+}
+h2 {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+p {
+    margin-bottom: 10px;
+}
+.ui-footer .ui-title {
+    padding: 0em 0px;
+    text-shadow: 0px 0px 9px #00C6FF;
+}
+.email {
+    top: -0.24em;
+}
+.clock {
+    border:2px solid #333;
+    color:#fff;
+    background:#202020;
+}
+#Date {
+    font-family:'BebasNeueRegular', Arial, Helvetica, sans-serif;
+    font-size:26px;
+    text-align:center;
+    text-shadow:0 0 5px #00c6ff;
+}
+.hz_ul {
+    list-style:none;
+    text-align:center;
+    margin: 10px;
+}
+.hz {
+    display:inline;
+    font-size:3em;
+    text-align:center;
+    font-family:'BebasNeueRegular', Arial, Helvetica, sans-serif;
+    text-shadow:0 0 9px #00c6ff;
+}
+#point {
+    position:relative;
+    -moz-animation:mymove 1s ease infinite;
+    -webkit-animation:mymove 1s ease infinite;
+    padding-left:8px;
+    padding-right:8px;
+}
+#AM_PM {
+    font-family:'BebasNeueRegular', Arial, Helvetica, sans-serif;
+    font-size:26px;
+    text-shadow:0 0 5px #00c6ff;
+    padding-right:20px;
+}
+@-webkit-keyframes mymove {
+    0% {
+        opacity:1.0;
+        text-shadow:0 0 20px #00c6ff;
+    }
+    50% {
+        opacity:0;
+        text-shadow:none;
+    }
+    100% {
+        opacity:1.0;
+        text-shadow:0 0 20px #00c6ff;
+    }
+}
+@-moz-keyframes mymove {
+    0% {
+        opacity:1.0;
+        text-shadow:0 0 20px #00c6ff;
+    }
+    50% {
+        opacity:0;
+        text-shadow:none;
+    }
+    100% {
+        opacity:1.0;
+        text-shadow:0 0 20px #00c6ff;
+    }
+}
+.clock {
+    border:2px solid #333;
+    color:#fff;
+    background:#202020;
+}
+#Date {
+    font-family:'BebasNeueRegular', Arial, Helvetica, sans-serif;
+    font-size:26px;
+    text-align:center;
+    text-shadow:0 0 5px #00c6ff;
+}
+ul.hz_ul {
+    list-style:none;
+    text-align:center;
+    margin: 10px;
+}
+ul li.hz {
+    display:inline;
+    font-size:3em;
+    text-align:center;
+    font-family:'BebasNeueRegular', Arial, Helvetica, sans-serif;
+    text-shadow:0 0 9px #00c6ff;
+}
+#point {
+    position:relative;
+    -moz-animation:mymove 1s ease infinite;
+    -webkit-animation:mymove 1s ease infinite;
+    padding-left:8px;
+    padding-right:8px;
+}
+#AM_PM {
+    font-family:'BebasNeueRegular', Arial, Helvetica, sans-serif;
+    font-size:26px;
+    text-shadow:0 0 5px #00c6ff;
+    padding-right:20px;
+}
+@-webkit-keyframes mymove {
+    0% {
+        opacity:1.0;
+        text-shadow:0 0 20px #00c6ff;
+    }
+    50% {
+        opacity:0;
+        text-shadow:none;
+    }
+    100% {
+        opacity:1.0;
+        text-shadow:0 0 20px #00c6ff;
+    }
+}
+@-moz-keyframes mymove {
+    0% {
+        opacity:1.0;
+        text-shadow:0 0 20px #00c6ff;
+    }
+    50% {
+        opacity:0;
+        text-shadow:none;
+    }
+    100% {
+        opacity:1.0;
+        text-shadow:0 0 20px #00c6ff;
+    }
+}
+
+label.error {
+	color: red;
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 1.4;
+	margin-top: 0.5em;
+	width: 100%;
+	float: none;
+}
+
+@media screen and (orientation: portrait) {
+	label.error {
+		margin-left: 0;
+		display: block;
+	}
+
+}
+
+@media screen and (orientation: landscape) {
+	label.error {
+		display: inline-block;
+		margin-left: 22%;
+	}
+
+}
+
+em {
+	color: red;
+	font-weight: bold;
+	padding-right: .25em;
+}
+.glow {
+-webkit-animation-duration: 1s;
+-webkit-animation-name: glow;
+-webkit-animation-direction: alternate;
+-webkit-animation-iteration-count: infinite;
+animation-duration: 1s;
+animation-name: glow;
+animation-direction: alternate;
+animation-iteration-count: infinite;
+}
+@-webkit-keyframes glow {
+from { text-shadow: 0 0 0px #2AD; }
+to { text-shadow: 0 0 20px #2AD; }
+}
+@font-face {
+  font-family: 'Trocchi';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Trocchi'), url(http://fonts.gstatic.com/s/trocchi/v4/vnG3tpDGh17z5IKwB3RdMg.woff) format('woff');
+}
+@font-face {
+  font-family: 'Alex Brush';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Alex Brush'), local('AlexBrush-Regular'), url(http://fonts.gstatic.com/s/alexbrush/v6/IdwaSrUcr-IskDo5YUNTVRsxEYwM7FgeyaSgU71cLG0.woff) format('woff');
+}
+@font-face {
+  font-family: 'Calligraffitti';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Calligraffitti'), local('Calligraffitti-Regular'), url(http://fonts.gstatic.com/s/calligraffitti/v7/vLVN2Y-z65rVu1R7lWdvyKIZAuDcNtpCWuPSaIR0Ie8.woff) format('woff');
+}
+@font-face {
+  font-family: 'Dancing Script';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Dancing Script'), local('DancingScript'), url(http://fonts.gstatic.com/s/dancingscript/v6/DK0eTGXiZjN6yA8zAEyM2VhlQWQpSCpzb2Peu3I-Q34.woff) format('woff');
+}
+@font-face {
+  font-family: 'Dancing Script';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Dancing Script Bold'), local('DancingScript-Bold'), url(http://fonts.gstatic.com/s/dancingscript/v6/KGBfwabt0ZRLA5W1ywjowfVc48Rxw3pIW-IHeDZiIVI.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans Condensed';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Cond Light'), local('OpenSans-CondensedLight'), url(http://fonts.gstatic.com/s/opensanscondensed/v10/gk5FxslNkTTHtojXrkp-xF1YPouZEKgzpqZW9wN-3Ek.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans Condensed';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Condensed Bold'), local('OpenSans-CondensedBold'), url(http://fonts.gstatic.com/s/opensanscondensed/v10/gk5FxslNkTTHtojXrkp-xONSK5BxN3NFS4EJkViHIqo.woff) format('woff');
+}
+@font-face {
+  font-family: 'Playball';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Playball'), local('Playball-Regular'), url(http://fonts.gstatic.com/s/playball/v6/QS5qjU-Gc2sqWEq5kDfWQfesZW2xOQ-xsNqO47m55DA.woff) format('woff');
+}
